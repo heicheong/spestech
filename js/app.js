@@ -65,11 +65,11 @@ jQuery(document).ready(function($) {
 		*/
 	   
 	   
-	   if ($(target).hasClass('fadeInRight')) {
+	   if ($(target).hasClass('fadeIn')) {
 		  
     } else {
         $(target).addClass('animated');
-		$(target).addClass('fadeInRight');
+		$(target).addClass('fadeIn');
     }
 	   
 	});
