@@ -251,7 +251,8 @@ p {
 a {
 	color: #1EAEDB;
 }
-a:hover {
+a:hover,
+a:active{
 	color: #0FA0CE;
 }
 /* Header Section
@@ -412,7 +413,8 @@ nav ul a {
     text-decoration: none;
     color: #FFF;
 }
-nav ul a:hover {
+nav ul a:hover,
+nav ul a:active{
 	color: #CFCFCF;
 }
 .mobile-toggle {
@@ -624,7 +626,8 @@ opacity: 0;
 	margin-right: auto;
 	transition: .5s;
 }
-.image:hover {
+.image:hover,
+.image:active{
 	opacity: 0.6;
 	transition: .3s;
 	background-image: url(../images/hoverbg.png);
@@ -699,7 +702,8 @@ input[type="submit"] {
     right: 10px;
 
 }
-input[type="submit"]:hover {
+input[type="submit"]:hover,
+input[type="submit"]:active{
 	background: #e55d87;
 	text-decoration: none;
 	color: #FFF;
@@ -827,7 +831,8 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 }
 
 .releasebutton:hover,
-.releasebutton:focus{
+.releasebutton:focus,
+.releasebutton:active{
 	background-image: url("../img/releasebtnhover.png");
     
 }
@@ -850,7 +855,7 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
     font-size: 14px;
     color: #FFF;
 }
-.btn:hover, .btn:focus {
+.btn:hover, .btn:focus,  .btn:active {
 	background-image: url(../img/circlehover_1.png);
   
 }
@@ -932,7 +937,7 @@ background-color: #552088;
 .list .button.release{background-color: #07A0FD;}
 
 
-.list .button:hover, .list .button:focus{
+.list .button:hover, .list .button:focus, .list .button:active{
 	background-color: #EEE;
 	border-bottom:1px solid #DDD;
 	box-shadow: 1px 1px 4px #999;
@@ -973,7 +978,8 @@ padding: 0;
 .listcube.third  .cube { background-color: #98DED7;}
 
 .list .cube:hover,
-.list .cube:focus{
+.list .cube:focus,
+.list .cube:active{
 	 background-image: url(../img/drug.png);
 	background-color: #B5CEE8;
 	background-size: 50px auto;
@@ -1087,7 +1093,8 @@ padding: 0;
 }
 
 .item.editlist:hover,
-.item.editlist:focus{
+.item.editlist:focus,
+.item.editlist:active{
 	background-color: #D1E1F0;
 	color: #344763;
 	
@@ -1102,7 +1109,8 @@ padding: 0;
 }
 
 .item.editlist:hover label,
-.item.editlist:focus label{
+.item.editlist:focus label,
+.item.editlist:active label{
 	
 	color: #344763;
 	
@@ -1235,7 +1243,8 @@ button select
   display: inline;
 }
 
-.sel__box__options:hover {
+.sel__box__options:hover,
+.sel__box__options:active{
   background-color: #ebedef;
 }
 
