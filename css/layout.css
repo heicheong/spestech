@@ -909,22 +909,23 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 	
 }
 .list .button {
-	    background-color: #552088;
+background-color: #552088;
     background-image: url(../img/button-icon@3x.png);
     background-repeat: no-repeat;
     background-size: 75px auto;
     background-position: center 10px;
     border-radius: 10px;
-    padding: 44px 10px 10px 10px;
+    padding: 44px 5px 10px 10px;
     height: auto;
-	min-height: 70px;
+    min-height: 46px;
     width: 80px;
     color: #FFF;
     font-size: 13px;
     display: inline-block;
     float: left;
-    margin-right: 10px;
+    margin-right: 3px;
     text-align: left;
+    border-bottom:3px solid #DDD;
 }
 .list .button .big{font-size:16px;}
 .list .button.edit{background-color: #FC804B;}
@@ -933,7 +934,7 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 
 .list .button:hover, .list .button:focus{
 	background-color: #EEE;
-	border:3px solid #DDD;
+	border-bottom:1px solid #DDD;
 	box-shadow: 1px 1px 4px #999;
 	color:#000;
 	cursor: pointer;
