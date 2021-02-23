@@ -50,16 +50,28 @@ $('.main_nav li a').click(function() {
 jQuery(document).ready(function($) {
 
    $('.smoothscroll').on('click',function (e) {
-	    e.preventDefault();
+	   // e.preventDefault();
 
 	    var target = this.hash,
 	    $target = $(target);
-
+	   
+	   console.log(target);
+/*
 	    $('html, body').stop().animate({
 	        'scrollTop': $target.offset().top
 	    }, 800, 'swing', function () {
 	        window.location.hash = target;
 	    });
+		*/
+	   
+	   
+	   if ($(target).hasClass('fadeInRight')) {
+		  
+    } else {
+        $(target).addClass('animated');
+		$(target).addClass('fadeInRight');
+    }
+	   
 	});
 	
 	$('.sel').each(function() {
