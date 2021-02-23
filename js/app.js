@@ -49,6 +49,8 @@ $('.main_nav li a').click(function() {
 
 jQuery(document).ready(function($) {
 
+	document.addEventListener("touchstart", function(){}, true);
+	
    $('.smoothscroll').on('click',function (e) {
 	   // e.preventDefault();
 
