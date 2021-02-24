@@ -182,7 +182,7 @@ jQuery(document).ready(function($) {
 	*/
 		
 		setTimeout(function() {
-			window.location = "#yourmedication";
+			window.location = "#done";
     }, 4000);
 		
 		
