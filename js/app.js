@@ -58,7 +58,14 @@ jQuery(document).ready(function($) {
 	$("#ReleaseBtn").bind('click',function(e){
 		
 		
-		$("#drugrelease").addClass("connect");
+		
+		
+		if ($(".drugrelease").hasClass("connect")) {
+		  
+		} else {
+			$(".drugrelease").addClass("connect");
+		}
+
 		$("#drugloading").show().delay(7000).fadeOut(1000);
 		
 		$("#drugloading p").text("Connect to your watch band...");
